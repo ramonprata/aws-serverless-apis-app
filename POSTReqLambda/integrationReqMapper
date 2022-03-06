@@ -1,0 +1,7 @@
+{
+  "name": $input.json('$.personData.name'),
+  "age": "$input.json('$.personData.age')",
+  "income": "$input.json('$.personData.income')",
+  "isWorking": $input.json('$.personData.isWorking'),
+  "userId": "$context.authorizer.principalId"
+}

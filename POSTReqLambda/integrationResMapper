@@ -1,0 +1,5 @@
+{
+  "name": $input.json('$.name'),
+  "yourAge": $input.json('$.age'),
+  "isWorking": $input.json('$.isWorking')
+}

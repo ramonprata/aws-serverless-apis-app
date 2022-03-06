@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "BodyReqUserData",
+  "type": "object",
+  "properties": {
+    "personData": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "age": { "type": "integer" },
+        "income": { "type": "integer" },
+        "isWorking": { "type": "boolean" }
+      },
+      "required": ["name", "age", "income", "isWorking"]
+    }
+  },
+  "required": ["personData"]
+}
