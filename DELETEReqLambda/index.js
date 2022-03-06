@@ -10,7 +10,7 @@ exports.handler = (event, context, callback) => {
     TableName: 'people-table',
     Key: {
       UserId: {
-        S: 'user_0.9553733464564136',
+        S: event.userId,
       },
     },
   };
