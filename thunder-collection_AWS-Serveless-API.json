@@ -1,7 +1,7 @@
 {
   "client": "Thunder Client",
   "collectionName": "AWS-Serveless-API",
-  "dateExported": "2022-02-27T06:22:38.434Z",
+  "dateExported": "2022-03-06T13:31:52.217Z",
   "version": "1.1",
   "folders": [],
   "requests": [
@@ -10,13 +10,14 @@
       "sortNum": 10000,
       "headers": [
         { "name": "Accept", "value": "*/*" },
-        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" },
+        { "name": "Authorization", "value": "allow" }
       ],
       "colId": "9875df9c-611e-428e-a423-28f4c82b34e6",
       "name": "POST - Compare Yourself",
-      "url": "https://3zcv5egjzl.execute-api.us-east-1.amazonaws.com/dev/compare-yourself",
+
       "method": "POST",
-      "modified": "2022-02-27T05:26:47.189Z",
+      "modified": "2022-03-06T13:31:11.382Z",
       "created": "2022-02-26T17:04:10.789Z",
       "_id": "abf4af84-9571-4a5c-a080-9980014b20ab",
       "params": [],
@@ -32,13 +33,14 @@
       "sortNum": 20000,
       "headers": [
         { "name": "Accept", "value": "*/*" },
-        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" },
+        { "name": "Authorization", "value": "allow" }
       ],
       "colId": "9875df9c-611e-428e-a423-28f4c82b34e6",
       "name": "GET - All",
-      "url": "https://3zcv5egjzl.execute-api.us-east-1.amazonaws.com/dev/compare-yourself/all",
+
       "method": "GET",
-      "modified": "2022-02-27T06:13:24.906Z",
+      "modified": "2022-03-06T13:15:39.848Z",
       "created": "2022-02-27T06:08:50.673Z",
       "_id": "830007f0-1095-4616-bda2-f11b010b2dde",
       "params": [],
@@ -49,13 +51,14 @@
       "sortNum": 30000,
       "headers": [
         { "name": "Accept", "value": "*/*" },
-        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" },
+        { "name": "Authorization", "value": "allow" }
       ],
       "colId": "9875df9c-611e-428e-a423-28f4c82b34e6",
       "name": "DELETE - Delete by id",
-      "url": "https://3zcv5egjzl.execute-api.us-east-1.amazonaws.com/dev/compare-yourself",
+
       "method": "DELETE",
-      "modified": "2022-02-27T06:17:58.774Z",
+      "modified": "2022-03-06T13:31:33.372Z",
       "created": "2022-02-27T06:17:05.475Z",
       "_id": "02b18c2c-61b7-4065-b254-546be0942fcd",
       "params": [],
@@ -66,13 +69,14 @@
       "sortNum": 30000,
       "headers": [
         { "name": "Accept", "value": "*/*" },
-        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" }
+        { "name": "User-Agent", "value": "Thunder Client (https://www.thunderclient.com)" },
+        { "name": "Authorization", "value": "allow" }
       ],
       "colId": "9875df9c-611e-428e-a423-28f4c82b34e6",
       "name": "GET - Single",
-      "url": "https://3zcv5egjzl.execute-api.us-east-1.amazonaws.com/dev/compare-yourself/single",
+
       "method": "GET",
-      "modified": "2022-02-27T06:13:09.406Z",
+      "modified": "2022-03-06T13:31:47.694Z",
       "created": "2022-02-27T06:13:09.406Z",
       "_id": "7318f889-cae0-47e6-8408-0c6e5d3f3bb9",
       "params": [],
